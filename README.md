@@ -19,17 +19,17 @@ https://ollama.com/download
 
 ### Open the command line or terminal
 
-ollama pull llama3.2
-ollama pull mistral
-ollama pull deepseek-r1
+ $ ollama pull llama3.2  
+ $ ollama pull mistral  
+ $ ollama pull deepseek-r1  
 
-ollama serve 
+ $ ollama serve 
 
-ollama run llama3.2
-ollama run mistral
-ollama pull deepseek-r1
+ $ ollama run llama3.2  
+ $ ollama run mistral  
+ $ ollama pull deepseek-r1  
 
-Ollama list 
+ $ ollama list 
 
 ### You should see output similar to this. 
 
