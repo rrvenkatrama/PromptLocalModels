@@ -55,20 +55,20 @@ http://localhost:8888/tree?token=7de6375687ac1392a97c62ed4baa02c88083a791e882c56
 
 ### Create a spreadsheet my_prompts.xlsx
 
--Name the first sheet "Prompts" 
--Add a column "My Prompts"
--Enter a list of prompts (as many as you want) in the column 
--Save the spreadsheet
+- Name the first sheet "Prompts" 
+- Add a column "My Prompts"
+- Enter a list of prompts (as many as you want) in the column 
+- Save the spreadsheet
 
 
 ### Run the notebook 
 
--(Update the path of the spreadsheetor the name of the filename or columns if required in the notebook before running) 
--The code reads the spreadsheet into a pandas dataframe 
--It sends the prompts one at a time to each model and stores responses in the same dataframe 
--The data frame with the responses is written nback to the spreadsheet 
--The program will add a new sheet named "Model Responses" that has responses from the three models in various columns along with the prompts in the first column 
--The time to execute the notebook depends on the number of questions 
--Start with a small number of questions and see the time it takes before adding lots of questions
--Compare the responses and enjoy 
+- Update the path of the spreadsheet or the name of the filename or columns if required in the notebook before running  
+- The code reads the spreadsheet into a pandas DataFrame  
+- It sends the prompts one at a time to each model and stores responses in the same DataFrame  
+- The DataFrame with the responses is written back to the spreadsheet  
+- The program will add a new sheet named "Model Responses" that has responses from the three models in various columns along with the prompts in the first column  
+- The time to execute the notebook depends on the number of questions  
+- Start with a small number of questions and see the time it takes before adding lots of questions  
+- Compare the responses and enjoy  
 
